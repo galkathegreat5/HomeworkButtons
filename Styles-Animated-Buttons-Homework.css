@@ -1,0 +1,36 @@
+.Buttons {
+    height: 30px;
+    width: 120px;
+    margin: 50px 50px;
+    background-color: darkgrey;
+}
+
+.DivButtons {
+    position: relative;
+    text-align: center;
+    padding-top: 1%;
+}
+   
+
+#Button-1:hover {
+    animation-name: Button-1;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes Button-1 {
+    0% {transform: scale(1.1)}
+    50% {transform: scale(0.9)}
+    100% {transform: scale(1.1)}
+}
+
+#Button-2:hover {
+    box-shadow: 0px 5px 3px lightgray;
+}
+
+.Button-3-Animation:hover {
+    background-color: blueviolet;
+    color: white;
+    transition: all 0,2s linear;
+}
